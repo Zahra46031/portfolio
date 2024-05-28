@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Chess_Engine_Styles.css">
+<title> Chess Engine </title>
+</head>
+<body>
+
+<h1>Chess Engine</h1>
+
+<h3> Purpose </h3>
+<p> Built to practice object oriented coding with a larger project than worked on in school. </p>
+
+<h3> Tools USed </h3>
+<p>Built in Java using the Swing graphics library. No other libraries were used. </p>
+
+<h3> Impletmentation </h3>
+<p> First I built the chessboard following OOP principles. The board was stored in the board class as a two dimensional array of Pieces. Piece is and interface implemented by the Pawn class, the night class ect. Each class implemented the move function differently to account for it's unique movement pattern. </p>
+
+<figure>
+<img src="Chess_Board.png" alt="image of chessboard" width="400" height="500">
+<figcaption> Figure 1 - Completed chessboard </figcaption>
+</figure>
+
+<p> The engine was created using an Alpha-Beta search tree which I implemented based on an online description. This searched possible board states for the most advantageous positions. The positions were scored based on an evaluation algorithm I wrote myself based on my chess knowledge and some tips from the internet. </p>
+
+<h3> Results </h3>
+<p> The chess engine performed at approximately 1800 elo, evaluated by having it play against chess bots of varying strength on Chess.com. <p>
+
+
+
+</body>
+<html>
